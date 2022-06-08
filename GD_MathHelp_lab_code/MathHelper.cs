@@ -56,5 +56,54 @@ namespace GD_MathHelp_lab_code
 			setText(solutionHistory.ToString());
 			return Math.Round(result, 5);
 		}
+
+		//public int Func2(int n, SetTextDelegate setText) // рекурсия, долго работает
+		//{
+		//	if (n == 1)
+		//	{
+		//		setText("1^1");
+		//		return 1;
+		//	}
+		//	setText($"{n}^{n} + ");
+
+		//	return (int)Math.Pow(n, n) + Func2(n - 1, setText);
+		//}
+
+		public int Func2(int end, SetTextDelegate setText) // без рекурсии
+		{
+			solutionHistory = new StringBuilder();
+
+			if (end == 1)
+			{
+				solutionHistory.Append("1^1");
+				setText(solutionHistory.ToString());
+				return 1;
+			}
+
+			int n = 1;
+			int result = 0;
+
+			while (n <= end)
+			{
+				result += (int)Math.Pow(n, n);
+
+				if (n != 1)
+				{
+					solutionHistory.Append($" + ");
+				}
+				solutionHistory.Append($"{n}^{n}");
+
+				if (n > format) // форматирование для сохранения в текстовый файл
+				{
+					solutionHistory.AppendLine();
+					format += format;
+				}
+
+				n++;
+			}
+
+			setText(solutionHistory.ToString());
+			return result;
+		}
 	}
 }
