@@ -7,3 +7,13 @@ C:\Users\olegs\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp
 C:\Users\olegs\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.csproj.CoreCompileInputs.cache
 C:\Users\olegs\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.exe
 C:\Users\olegs\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.pdb
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\bin\Debug\GD_MathHelp_lab_code.exe.config
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\bin\Debug\GD_MathHelp_lab_code.exe
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\bin\Debug\GD_MathHelp_lab_code.pdb
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.csproj.AssemblyReference.cache
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.csproj.SuggestedBindingRedirects.cache
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.Properties.Resources.resources
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.csproj.GenerateResource.cache
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.csproj.CoreCompileInputs.cache
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.exe
+C:\Users\vrubl\Documents\GitHub\GD_MH\GD_MathHelp_lab_code\obj\Debug\GD_MathHelp_lab_code.pdb

@@ -88,5 +88,10 @@ namespace GD_MathHelp_lab_code
         {
             richTextBox1.Clear();
         }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
     }
 }
