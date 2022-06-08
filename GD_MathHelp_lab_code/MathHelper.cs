@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace GD_MathHelp_lab_code
 {
 	public delegate void SetTextDelegate(string text);
-	public class Class1
+	public class MathHelper
 	{
 		private StringBuilder solutionHistory;
 		int format = 200; // после 200q записи будет выполняться перенос строки
-		static Class1()
+		static MathHelper()
 		{
 
 		}

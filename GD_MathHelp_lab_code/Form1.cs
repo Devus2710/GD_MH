@@ -13,7 +13,7 @@ namespace GD_MathHelp_lab_code
 {
     public partial class Form1 : Form
     {
-        //private Class1 Solver = new Class1();
+        private MathHelper Solver = new MathHelper();
         public Form1()
         {
             InitializeComponent();
@@ -44,16 +44,16 @@ namespace GD_MathHelp_lab_code
 
                 if (radioButton1.Checked)
                 {
-                    //result = Solver.Func1(value, new SetTextDelegate(SetTextToBox));
+                    result = Solver.Func1(value, new SetTextDelegate(SetTextToBox));
                     resultString = result.ToString();
                 }
                 else if (radioButton2.Checked)
                 {
-                    //resultString = Solver.Func2(value, new SetTextDelegate(SetTextToBox)).ToString();
+                    resultString = Solver.Func2(value, new SetTextDelegate(SetTextToBox)).ToString();
                 }
                 else if (radioButton3.Checked)
                 {
-                    //resultString = Solver.Func3(value, new SetTextDelegate(SetTextToBox)).ToString();
+                    resultString = Solver.Func3(value, new SetTextDelegate(SetTextToBox)).ToString();
                 }
 
                 return resultString;
