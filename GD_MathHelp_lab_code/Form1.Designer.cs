@@ -1,5 +1,5 @@
 ﻿
-namespace GD_math_Lab_2._0
+namespace GD_MathHelp_lab_code
 {
     partial class Form1
     {
@@ -90,8 +90,8 @@ namespace GD_math_Lab_2._0
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.richTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.Location = new System.Drawing.Point(27, 344);
             this.richTextBox1.Name = "richTextBox1";
@@ -116,7 +116,6 @@ namespace GD_math_Lab_2._0
             this.button1.TabIndex = 5;
             this.button1.Text = "Посчитать";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // maskedTextBox1
             // 
@@ -177,7 +176,6 @@ namespace GD_math_Lab_2._0
             this.button2.TabIndex = 11;
             this.button2.Text = "Сохранить историю в текстовый файл";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // saveFileDialog1
             // 
@@ -192,7 +190,6 @@ namespace GD_math_Lab_2._0
             this.button3.TabIndex = 12;
             this.button3.Text = "Очистить историю";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // contextMenuStrip1
             // 
@@ -213,7 +210,7 @@ namespace GD_math_Lab_2._0
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.LightGray;
             this.panel1.Location = new System.Drawing.Point(0, -1);
